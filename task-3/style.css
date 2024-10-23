@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{  font-family: "Mulish", sans-serif;}
+a{text-decoration: none;}
+
+.container{width: 70%;}
+.container-fluied{width: 100%;}
+.cards-width{width: 90%;}
+.bg-main{background-color: #0A85EA;}
+.bg-second{background-color: #F6F5F8;}
+.text-white{color: white;}
+.text-dark{color: black;}
+.d-block{display: inline-block;}
+.m-auto{margin: auto;}
+.v-top{vertical-align: top;}
+.text-center{text-align: center;}
+.py{padding-block: 80px;}
+.f-weight{  font-weight: 700;}
+.btn-bg{background-color: #FF3A61;}
+.btn-brdr{border: 1px solid #C8052C;}
+
+.content-left{
+    width: 39%;
+}
+.content-left h3{
+    font-size: 40px;
+    padding-bottom: 48px;
+    padding-right: 38px;
+}
+.content-right{
+    width: 60%;
+    padding-top: 11px;
+}
+
+.content-right .middle{
+    padding-block: 14px;
+}
+
+.img{
+    margin-top: 50px;
+}
+.img img{
+    width: 100%;
+}
+
+.our-company .title{
+    font-size: 50px;
+    line-height: 60px;
+}
+
+.our-company .cards .card{
+    width: 22%;
+    padding: 30px;
+    margin-inline: 1.3%;
+    margin-top: 40px;
+}
+
+.our-company .cards .card  img{
+    width: 45px;
+}
+
+.our-company .cards .card h4{
+    font-size: 30px;
+    padding-block: 5px;
+}
+
+.footer h3{
+    font-size: 50px;
+}
+
+.footer .desc{
+    /* background-color: antiquewhite; */
+    padding-inline: 360px;
+    padding-block: 15px;
+}
+
+.form-input{
+    width: 33%;
+    background-color: rgb(248, 248, 248);
+    border-radius: 25px;
+}
+
+.form-input input{
+    width: 70%;
+    padding: 15px;
+    float: left;
+    border-radius: 25px;
+    border: none;
+}
+
+.form-input input:focus{
+    outline: none;
+}
+
+.form-input button{
+    float: right;
+    width: 27%;
+    padding: 10px;
+    margin-top: 4px;
+    margin-right: 4px;
+    border-radius: 25px;
+    font-size: 14px;
+}
+
+
+.footer .text{
+    padding-top: 18px;
+}
+
+
+.clr{
+    clear: both;
+}
